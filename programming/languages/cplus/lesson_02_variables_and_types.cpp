@@ -84,13 +84,13 @@ int main()
     char name_first_letter{'M'};
     bool is_ready_to_continue{true};
 
-    std::cout << "lessons completed: " << lessons_completed << '\n';
-    std::cout << "learning hours: " << learning_hours << '\n';
-    std::cout << "name first letter is " << name_first_letter << '\n';
-    std::cout << "is ready to continue? " << is_ready_to_continue << '\n';
+    std::cout << "Lessons completed: " << lessons_completed << '\n';
+    std::cout << "Learning hours: " << learning_hours << '\n';
+    std::cout << "Name first letter is " << name_first_letter << '\n';
+    std::cout << "Is ready to continue? " << is_ready_to_continue << '\n';
 
     const int months_in_year{12};
-    std::cout << "months in year: " << months_in_year << '\n' << "size: " << sizeof(months_in_year) << '\n';
+    std::cout << "Months in year: " << months_in_year << '\n' << "size: " << sizeof(months_in_year) << '\n';
 
     return 0;
 }
