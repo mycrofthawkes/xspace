@@ -1,0 +1,8 @@
+# Cursor/VS Code
+programming/languages/cplus/.vscode/
+# C++ executables generated for lessons
+programming/languages/cplus/lesson_*
+!programming/languages/cplus/lesson_*.cpp
+# Other build artifacts
+*.o
+*.out
