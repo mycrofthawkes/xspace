@@ -1,6 +1,6 @@
-
-
 // lesson_05_loops.cpp
+
+// Урок 5: Циклы for и while.cpp
 
 #include <iostream>
 
