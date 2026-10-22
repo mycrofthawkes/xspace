@@ -126,7 +126,7 @@ int main()
     std::cout << "Enter integer: ";
     if (!(std::cin >> number)) {
         std::cerr << "Error: number must be an integer.\n";
-        return -1;
+        return 1;
     } else {
         if (number > 0) {
             std::cout << "Number is positive.\n";
